@@ -38,12 +38,12 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 
 
 function main() {
-    // const secondInteger = readLine();
-    const secondInteger = 12;
-    // const secondDecimal = readLine();
-    const secondDecimal = 4.32;
-    // const secondString = readLine();
-    const secondString = 'is the best place to learn and practice coding!';
+    const secondInteger = readLine();
+    // const secondInteger = 12;
+    const secondDecimal = readLine();
+    // const secondDecimal = 4.32;
+    const secondString = readLine();
+    // const secondString = 'is the best place to learn and practice coding!';
     
     performOperation(secondInteger, secondDecimal, secondString);
 }

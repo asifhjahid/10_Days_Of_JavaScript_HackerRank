@@ -17,8 +17,8 @@ function greeting(parameterVariable) {
 
 
 function main() {
-    //const parameterVariable = readLine();
-    const parameterVariable = 'Welcome to 10 Days of JavaScript!';
+    const parameterVariable = readLine();
+    // const parameterVariable = 'Welcome to 10 Days of JavaScript!';
     
     greeting(parameterVariable);
 }
